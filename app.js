@@ -7,7 +7,7 @@ let alert = require('alert');
 const bcrypt = require("bcrypt");
 const saltRounds = 10;
 var currUser = "";
-const PORT = process.env.PORT || 3030;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
