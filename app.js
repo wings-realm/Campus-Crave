@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 let alert = require('alert');
 const bcrypt = require("bcrypt");
 const saltRounds = 10;
-var currUser = "";
+var currUser;
 const PORT = process.env.PORT || 3000;
 
 const app = express();
